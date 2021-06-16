@@ -146,9 +146,10 @@ header .header-nav-list {
 }
 
 header .header-nav-list .header-nav-list-box {
+  position: absolute;
   display: inline-block;
   background-color: rgba(156, 240, 74, 0.9);
-  float: right;
+  right: 0;
   width: 40%;
   text-align: center;
   height: 100vh;
