@@ -514,4 +514,473 @@ footer {
   color: #fff;
   line-height: 2;
 }
+@media screen and (max-width: 780px) {
+  .main-image {
+    background-size: cover;
+    background-position: right;
+    text-align: left;
+  }
+  .main-image h1 {
+    font-size: 3rem;
+    left: 10%;
+    top: 30%;
+  }
+  .main-image .main-image-message {
+    left: 8%;
+    text-align: center;
+    top: 40%;
+  }
+  .main-image .main-image-message p {
+    font-size: 1.4rem;
+  }
+  .main-image .btn {
+    left: 15%;
+    top: 50%;
+  }
+  .main-image .btn a {
+    text-decoration: none;
+    background-color: #0CBE5B;
+    padding: 30px 100px;
+    color: #fff;
+    border-radius: 30px;
+  }
+  .present h2 {
+    font-size: 2rem;
+  }
+  .present .present-container .present-box {
+    width: 85%;
+    margin: 0 auto;
+  }
+  .present .present-container .present-box h3 {
+    font-size: 1.4rem;
+    margin-bottom: 30px;
+  }
+  .present .present-container .present-box img {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .present .present-container .present-box p {
+    text-align: left;
+    line-height: 2;
+    font-size: .8rem;
+  }
+  .present .present-container .btn {
+    font-size: 1.2rem;
+  }
+  .present .present-container .btn a {
+    padding: 20px 80px;
+  }
+  .voice h2 {
+    font-size: 2rem;
+  }
+  .voice .swiper-slide {
+    width: 60%;
+    margin: 60px auto;
+  }
+  .voice .swiper-slide .swiper-box h4 {
+    font-size: .9rem;
+    margin-bottom: 30px;
+  }
+  .voice .swiper-slide .swiper-box p {
+    font-size: .8rem;
+  }
+  .recommend h2 {
+    font-size: 2rem;
+  }
+  .recommend .recommend-box {
+    width: 80%;
+  }
+  .recommend .recommend-box img {
+    width: 14%;
+  }
+  .recommend .recommend-box p {
+    font-size: 1.2rem;
+  }
+  .recommend .recommend-message {
+    margin-top: 150px;
+    font-size: 2rem;
+    line-height: 2;
+  }
+  .recommend .recommend-message span {
+    color: #9CF04A;
+  }
+  .recommend .arrow-gif {
+    margin: 50px 0 70px;
+    width: 250px;
+  }
+  .recommend .btn {
+    font-size: 1.2rem;
+  }
+  .recommend .btn a {
+    padding: 30px 80px;
+  }
+  .profile h2 {
+    font-size: 2rem;
+  }
+  .profile .profile-wrapper {
+    margin-top: 80px;
+  }
+  .profile .profile-wrapper img {
+    border-radius: 50%;
+    width: 270px;
+    height: 270px;
+  }
+  .profile .profile-wrapper .profile-box {
+    width: 70%;
+  }
+  .profile .profile-wrapper .profile-box .name {
+    font-size: 2rem;
+  }
+  .profile .profile-wrapper .profile-box .profile-info p {
+    font-size: 1.2rem;
+  }
+  .profile .profile-wrapper .profile-box .experience {
+    margin-bottom: 50px;
+  }
+  .profile .profile-wrapper .profile-box .experience p {
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    line-height: 2;
+  }
+  .profile .profile-wrapper .profile-box .experience p span {
+    color: #9CF04A;
+  }
+  .profile .profile-wrapper .profile-box .experience p .red {
+    color: red;
+  }
+  .profile .profile-wrapper .profile-box .dream p {
+    font-size: 1.4rem;
+    letter-spacing: 2px;
+    line-height: 4;
+  }
+  footer p {
+    font-size: .5rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  header .header-nav {
+    z-index: 300;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 20px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: white;
+  }
+  header .header-nav .header-left {
+    vertical-align: middle;
+    margin-left: 30px;
+  }
+  header .header-nav .header-left img {
+    margin-top: 10px;
+    width: 100px;
+  }
+  header .header-nav .header-right {
+    z-index: 500;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-right: 30px;
+  }
+  header .header-nav .header-right .header-btn {
+    position: relative;
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+    border: none;
+  }
+  header .header-nav .header-right .header-btn .cnt-line {
+    position: absolute;
+    top: 20px;
+    left: 5px;
+    display: block;
+    width: 30px;
+    height: 3px;
+    padding: 0;
+    background-color: #333;
+    -webkit-transition: .5s;
+    transition: .5s;
+  }
+  header .header-nav .header-right .header-btn .top-line {
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    content: "";
+    display: block;
+    width: 30px;
+    height: 3px;
+    padding: 0;
+    background-color: #333;
+    -webkit-transition: .5s;
+    transition: .5s;
+  }
+  header .header-nav .header-right .header-btn .btm-line {
+    position: absolute;
+    top: 30px;
+    left: 5px;
+    content: "";
+    display: block;
+    width: 30px;
+    height: 3px;
+    padding: 0;
+    background-color: #333;
+    -webkit-transition: .5s;
+    transition: .5s;
+  }
+  header .header-nav .header-right p {
+    color: #333;
+    font-family: "Montserrat Medium";
+    font-weight: 600;
+  }
+  header .header-nav .header-right p .open {
+    color: #fff;
+  }
+  header .header-nav .header-btn .top-line.open {
+    top: 20px;
+    -webkit-transform: rotate(135deg);
+            transform: rotate(135deg);
+    -webkit-transition: .5s;
+    transition: .5s;
+    background-color: #333;
+  }
+  header .header-nav .header-btn .cnt-line.open {
+    opacity: 0;
+    -webkit-transition: .5s;
+    transition: .5s;
+    background-color: #333;
+  }
+  header .header-nav .header-btn .btm-line.open {
+    top: 20px;
+    -webkit-transform: rotate(-135deg);
+            transform: rotate(-135deg);
+    -webkit-transition: .5s;
+    transition: .5s;
+    background-color: #333;
+  }
+  header .header-nav-list {
+    position: fixed;
+    z-index: 200;
+    top: 0;
+    right: -100%;
+    width: 100%;
+    height: 100vh;
+    background: rgba(255, 253, 237, 0.7);
+    -webkit-transition: all 0.6s;
+    transition: all 0.6s;
+  }
+  header .header-nav-list .header-nav-list-box {
+    display: inline-block;
+    background-color: rgba(156, 240, 74, 0.9);
+    float: right;
+    width: 40%;
+    text-align: center;
+    height: 100vh;
+  }
+  header .header-nav-list .header-nav-list-box li {
+    margin-top: 300px;
+    list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+  }
+  header .header-nav-list .header-nav-list-box li a {
+    font-size: 18px;
+    margin-bottom: 70px;
+    color: #fff;
+    text-decoration: none;
+  }
+  header .header-nav-list.active {
+    right: 0;
+  }
+  .main-image {
+    background-size: cover;
+    background-position: center;
+  }
+  .main-image h1 {
+    font-size: 1.8rem;
+    left: 2%;
+    top: 36%;
+    -webkit-box-shadow: 0px 0px 0px 0px #9bfa3c inset, -10px 15px 15px -10px #9CF04A;
+            box-shadow: 0px 0px 0px 0px #9bfa3c inset, -10px 15px 15px -10px #9CF04A;
+  }
+  .main-image .main-image-message {
+    left: 5%;
+    text-align: center;
+    top: 43%;
+  }
+  .main-image .main-image-message p {
+    text-align: left;
+    font-size: 1rem;
+    letter-spacing: 2px;
+  }
+  .main-image .btn {
+    left: 15%;
+    top: 47%;
+  }
+  .main-image .btn a {
+    text-decoration: none;
+    background-color: #0CBE5B;
+    padding: 15px 30px;
+    color: #fff;
+    border-radius: 30px;
+    font-size: .8rem;
+  }
+  .present h2 {
+    font-size: 1.5rem;
+  }
+  .present .present-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    margin: 70px 0 50px;
+  }
+  .present .present-container .present-box {
+    width: 85%;
+    margin: 0 auto 40px;
+  }
+  .present .present-container .present-box h3 {
+    font-size: 1rem;
+    margin-bottom: 30px;
+  }
+  .present .present-container .present-box img {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .present .present-container .present-box p {
+    text-align: left;
+    line-height: 2;
+    font-size: .6rem;
+  }
+  .present .btn {
+    font-size: .8rem;
+  }
+  .present .btn a {
+    padding: 20px 40px;
+  }
+  .voice h2 {
+    font-size: 1.5rem;
+  }
+  .voice .swiper-slide {
+    width: 80%;
+    margin: 60px auto;
+  }
+  .voice .swiper-slide .slick-next {
+    right: 20px;
+  }
+  .voice .swiper-slide .slick-prev {
+    left: 20px;
+  }
+  .voice .swiper-slide .swiper-box {
+    padding: 40px 50px;
+  }
+  .voice .swiper-slide .swiper-box img {
+    width: 70%;
+  }
+  .voice .swiper-slide .swiper-box h4 {
+    font-size: .4rem;
+    margin-bottom: 30px;
+  }
+  .voice .swiper-slide .swiper-box p {
+    font-size: .6rem;
+  }
+  .recommend h2 {
+    font-size: 1.5rem;
+  }
+  .recommend .recommend-box {
+    width: 85%;
+    margin: 0 auto 60px;
+  }
+  .recommend .recommend-box img {
+    width: 16%;
+  }
+  .recommend .recommend-box p {
+    font-size: .8rem;
+  }
+  .recommend .recommend-message {
+    margin-top: 100px;
+    font-size: 1.4rem;
+  }
+  .recommend .recommend-message span {
+    color: #9CF04A;
+  }
+  .recommend .arrow-gif {
+    margin: 40px 0 70px;
+    width: 250px;
+  }
+  .recommend .btn {
+    font-size: .8rem;
+  }
+  .recommend .btn a {
+    padding: 20px 40px;
+  }
+  .profile h2 {
+    font-size: 1.5rem;
+  }
+  .profile .profile-wrapper {
+    margin-top: 80px;
+  }
+  .profile .profile-wrapper img {
+    border-radius: 50%;
+    width: 230px;
+    height: 230px;
+  }
+  .profile .profile-wrapper .profile-box {
+    width: 65%;
+  }
+  .profile .profile-wrapper .profile-box .name {
+    font-size: 1.5rem;
+  }
+  .profile .profile-wrapper .profile-box .name::after {
+    margin-top: 15px;
+    display: block;
+    content: "田舎出エンジニア";
+    font-size: .7rem;
+    letter-spacing: 2px;
+  }
+  .profile .profile-wrapper .profile-box .profile-info p {
+    font-size: .8rem;
+  }
+  .profile .profile-wrapper .profile-box .experience {
+    margin-bottom: 50px;
+  }
+  .profile .profile-wrapper .profile-box .experience p {
+    font-size: .7rem;
+    letter-spacing: 2px;
+    line-height: 2.5;
+  }
+  .profile .profile-wrapper .profile-box .experience p span {
+    color: #9CF04A;
+  }
+  .profile .profile-wrapper .profile-box .experience p .red {
+    color: red;
+  }
+  .profile .profile-wrapper .profile-box .dream p {
+    font-size: .7rem;
+    letter-spacing: 2px;
+    line-height: 3;
+  }
+  footer p {
+    font-size: .5rem;
+  }
+}
 /*# sourceMappingURL=index.css.map */
