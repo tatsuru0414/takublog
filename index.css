@@ -180,7 +180,7 @@ header .header-nav-list.active {
 .main-image {
   overflow: hidden;
   font-family: serif;
-  background-image: url("../image/fulda-2789195_1280.jpg");
+  background-image: url("./image/fulda-2789195_1280.jpg");
   background-repeat: no-repeat;
   background-size: 135%;
   background-position: left bottom 20%;
